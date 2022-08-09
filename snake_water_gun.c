@@ -21,9 +21,9 @@ int main()
  
     srand(time(0));                   
     num=rand()%100+1;                 // random number generator for computer
-    if(num>33)
+    if( num>33 && num<66 )
         comp='s';
-    else if(num>66)
+    else if( num>66 )
         comp='g';
     else
         comp='w';
